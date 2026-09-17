@@ -155,3 +155,31 @@ edit the /ect/hosts file to put to our IP address
 python3 -m http.server 8080
 
 copying the contents of /var/www/dev_site
+
+copy index.html for the login page. 
+
+smokey keeps on login in
+
+edit the hosts file as Hazel and point or our ip address
+pyhthon3 -m http.server 8080
+
+capture using wireshark:
+
+for me the interface is tun0 since I'm on VPN 
+
+look for this POST request:
+
+python3 -m http.server 8080
+Serving HTTP on 0.0.0.0 port 8080 (http://0.0.0.0:8080/) ...
+10.49.184.170 - - [17/Sep/2026 16:41:56] "GET / HTTP/1.1" 200 -
+10.49.184.170 - - [17/Sep/2026 16:41:58] code 501, message Unsupported method ('POST')
+
+obtain:
+Form item: "password" = "A1lw@ys_C0m1nG_1N_2nd!!"
+
+su root
+password: A1lw@ys_C0m1nG_1N_2nd!!
+
+get root flag
+
+COMPLETE
