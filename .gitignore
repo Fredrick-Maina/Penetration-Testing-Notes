@@ -1,1 +1,7 @@
+# Obsidian configuration
 .obsidian/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+

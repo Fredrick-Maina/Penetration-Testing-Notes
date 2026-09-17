@@ -1,0 +1,3 @@
+The fob locks but won’t unlock. Codes change every second, forge the signal; don’t replay it.
+
+Modern cars have an internal network called the CAN Bus. Every part of the car: doors, dashboard, engine, talks to every other part by broadcasting little messages onto this shared wire. In this room you're plugged into the CAN bus of a demo vehicle. You've been given a key fob that can Lock the car and sound the Horn, but has no Unlock button. The manufacturer claims the unlock command "can't be copied." Your job is to watch the car's messages, work out how the door commands are built, and craft the Unlock message yourself.
