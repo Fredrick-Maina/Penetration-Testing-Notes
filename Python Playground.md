@@ -17,7 +17,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 22.40 seconds
 
 
-gobuster dir -u http://10.48.145.195 -w ~/Lock-in/Projects/Cybersecurity/wordlists/dirb/wordlists/common.txt -x html -t 50
+gobuster dir -u http://10.48.145.195 -w /usr/share/wordlists/dirb/wordlists/common.txt -x html -t 50
 ===============================================================
 Gobuster v3.8.2
 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
@@ -25,7 +25,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 [+] Url:                     http://10.48.145.195
 [+] Method:                  GET
 [+] Threads:                 50
-[+] Wordlist:                /home/drrr/Lock-in/Projects/Cybersecurity/wordlists/dirb/wordlists/common.txt
+[+] Wordlist:                /usr/share/wordlists/dirb/wordlists/common.txt
 [+] Negative Status codes:   404
 [+] User Agent:              gobuster/3.8.2
 [+] Extensions:              html
